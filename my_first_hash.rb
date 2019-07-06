@@ -14,7 +14,7 @@ def retrieval
  end
 
 def adding
-  shipping_manifest. add { "guns" => "muskets"
+  shipping_manifest. add { "guns" => "muskets", 'guns" => "muskets", "gun items" => "gun powder",
 
 
 
