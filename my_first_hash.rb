@@ -14,7 +14,9 @@ def retrieval
  end
 
 def adding
-  shipping_manifest{"guns" { "guns" => "muskets", 'guns" => "muskets", "gun items" => "gun powder","gun items" => "gun powder","gun items" => "gun powder","gun items" => "gun powder"}
+  shipping_manifest["muskets"] = 2  
+  shipping_manifest["gun powder"] = 4
+  
 
 
 
