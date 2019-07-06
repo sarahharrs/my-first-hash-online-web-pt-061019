@@ -6,22 +6,12 @@ end
 
 
 def shipping_manifest
-   the_manifest  = {"whale bone corsets","whale bone corsets", "whale bone corsets", "whale bone corsets","whale bone corsets", "porcelain vases","porcelain vases", "oil paintings", "oil paintings", "oil paintings"}
-  
-
-
+   the_manifest  = {"clothing" => "whale bone corsets","clothing" => "whale bone corsets", "clothing" => "whale bone corsets", "clothing" => "whale bone corsets", "clothing" => "whale bone corsets", "pottery" => "porcelain vases", "pottery" => "porcelain vases", "artwork" => "oil paintings", "artwork" => "oil paintings", "artwork" => "oil paintings"}
 end
 
 def retrieval
-  shipping_manifest = {
-                  "whale bone corsets" => 5, 
-                  "porcelain vases" => 2, 
-                  "oil paintings" => 3
-                 }
-
-  # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-
-end
+  shipping_manifest ["artwork"]
+ end
 
 def adding
   shipping_manifest = {
